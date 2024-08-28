@@ -1,0 +1,76 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SomeClass",
+        "printedName": "SomeClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SomeClass",
+                "printedName": "TestFramework.SomeClass",
+                "usr": "s:13TestFramework9SomeClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13TestFramework9SomeClassCACycfc",
+            "mangledName": "$s13TestFramework9SomeClassCACycfc",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomething",
+            "printedName": "doSomething()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13TestFramework9SomeClassC11doSomethingyyF",
+            "mangledName": "$s13TestFramework9SomeClassC11doSomethingyyF",
+            "moduleName": "TestFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13TestFramework9SomeClassC",
+        "mangledName": "$s13TestFramework9SomeClassC",
+        "moduleName": "TestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
